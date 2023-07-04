@@ -14,3 +14,4 @@ chrome.browserAction.onClicked.addListener(function() {
         chrome.tabs.update(currentTab.id, { url: redirectUrl });
     });
 });
+

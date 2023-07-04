@@ -2,7 +2,7 @@
 //  SafariWebExtensionHandler.swift
 //  Shared (Extension)
 //
-//  Created by Manfred Witteman on 04-07-2023.
+//  Created by Manfred on 04/07/2023.
 //
 
 import SafariServices
@@ -22,7 +22,5 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
 
         context.completeRequest(returningItems: [response], completionHandler: nil)
     }
-    
-   
 
 }

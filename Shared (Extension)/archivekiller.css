@@ -1,0 +1,25 @@
+#HEADER {
+    display: none;
+  }
+
+#CONTENT {
+    border: none !important;
+    width: 1029px !important;
+  }
+
+#hashtags {
+    display: none;
+  }
+
+[id^='sticky']{
+    display: none;
+}
+
+div[style="padding:10px 0;min-width:1028px;background-color:#EEEEEE"] {
+    display: none;
+}
+
+
+div[style="padding:200px 0;min-width:1028px;background-color:#EEEEEE"] {
+    display: none;
+}

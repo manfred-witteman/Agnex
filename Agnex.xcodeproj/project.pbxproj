@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741BC3E92A5439BF00929EEA /* archivekiller.css in Resources */ = {isa = PBXBuildFile; fileRef = 741BC3E82A5439BF00929EEA /* archivekiller.css */; };
+		741BC3EA2A5439BF00929EEA /* archivekiller.css in Resources */ = {isa = PBXBuildFile; fileRef = 741BC3E82A5439BF00929EEA /* archivekiller.css */; };
+		741BC3ED2A544E0F00929EEA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 741BC3EB2A544E0E00929EEA /* manifest.json */; };
+		741BC3EE2A544E0F00929EEA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 741BC3EB2A544E0E00929EEA /* manifest.json */; };
+		741BC3EF2A544E0F00929EEA /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 741BC3EC2A544E0F00929EEA /* background.js */; };
+		741BC3F02A544E0F00929EEA /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 741BC3EC2A544E0F00929EEA /* background.js */; };
+		7463D7202A54334300B6BA39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463D71F2A54334300B6BA39 /* AppDelegate.swift */; };
+		7463D7222A54334300B6BA39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463D7212A54334300B6BA39 /* SceneDelegate.swift */; };
+		7463D7252A54334300B6BA39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7463D7232A54334300B6BA39 /* LaunchScreen.storyboard */; };
+		7463D7282A54334300B6BA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7463D7262A54334300B6BA39 /* Main.storyboard */; };
+		7463D7312A54334300B6BA39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463D7302A54334300B6BA39 /* AppDelegate.swift */; };
+		7463D7342A54334300B6BA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7463D7322A54334300B6BA39 /* Main.storyboard */; };
+		7463D73C2A54334300B6BA39 /* Agnex Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7463D73B2A54334300B6BA39 /* Agnex Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7463D7462A54334300B6BA39 /* Agnex Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7463D7452A54334300B6BA39 /* Agnex Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7463D74C2A54334300B6BA39 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7463D70F2A54334100B6BA39 /* Main.html */; };
+		7463D74D2A54334300B6BA39 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7463D70F2A54334100B6BA39 /* Main.html */; };
+		7463D74E2A54334300B6BA39 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7463D7112A54334100B6BA39 /* Icon.png */; };
+		7463D74F2A54334300B6BA39 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7463D7112A54334100B6BA39 /* Icon.png */; };
+		7463D7502A54334300B6BA39 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7463D7122A54334100B6BA39 /* Style.css */; };
+		7463D7512A54334300B6BA39 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7463D7122A54334100B6BA39 /* Style.css */; };
+		7463D7522A54334300B6BA39 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7463D7132A54334100B6BA39 /* Script.js */; };
+		7463D7532A54334300B6BA39 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7463D7132A54334100B6BA39 /* Script.js */; };
+		7463D7542A54334300B6BA39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463D7142A54334100B6BA39 /* ViewController.swift */; };
+		7463D7552A54334300B6BA39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463D7142A54334100B6BA39 /* ViewController.swift */; };
+		7463D7562A54334300B6BA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7463D7152A54334300B6BA39 /* Assets.xcassets */; };
+		7463D7572A54334300B6BA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7463D7152A54334300B6BA39 /* Assets.xcassets */; };
+		7463D7582A54334300B6BA39 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463D7172A54334300B6BA39 /* SafariWebExtensionHandler.swift */; };
+		7463D7592A54334300B6BA39 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463D7172A54334300B6BA39 /* SafariWebExtensionHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7463D73D2A54334300B6BA39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7463D7092A54334100B6BA39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7463D73A2A54334300B6BA39;
+			remoteInfo = "Redirect Extension Extension (iOS)";
+		};
+		7463D7472A54334300B6BA39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7463D7092A54334100B6BA39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7463D7442A54334300B6BA39;
+			remoteInfo = "Redirect Extension Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7463D75F2A54334300B6BA39 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7463D73C2A54334300B6BA39 /* Agnex Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7463D7662A54334300B6BA39 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7463D7462A54334300B6BA39 /* Agnex Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		741BC3E82A5439BF00929EEA /* archivekiller.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = archivekiller.css; sourceTree = "<group>"; };
+		741BC3EB2A544E0E00929EEA /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		741BC3EC2A544E0F00929EEA /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		7463D7102A54334100B6BA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		7463D7112A54334100B6BA39 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7463D7122A54334100B6BA39 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		7463D7132A54334100B6BA39 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		7463D7142A54334100B6BA39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7463D7152A54334300B6BA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7463D7172A54334300B6BA39 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		7463D71C2A54334300B6BA39 /* Agnex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agnex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7463D71F2A54334300B6BA39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7463D7212A54334300B6BA39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7463D7242A54334300B6BA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7463D7272A54334300B6BA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7463D7292A54334300B6BA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7463D72E2A54334300B6BA39 /* Agnex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agnex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7463D7302A54334300B6BA39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7463D7332A54334300B6BA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7463D7352A54334300B6BA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7463D7362A54334300B6BA39 /* Redirect Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Redirect Extension.entitlements"; sourceTree = "<group>"; };
+		7463D73B2A54334300B6BA39 /* Agnex Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Agnex Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7463D7402A54334300B6BA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7463D7452A54334300B6BA39 /* Agnex Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Agnex Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7463D74A2A54334300B6BA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7463D74B2A54334300B6BA39 /* Redirect Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Redirect Extension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7463D7192A54334300B6BA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7463D72B2A54334300B6BA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7463D7382A54334300B6BA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7463D7422A54334300B6BA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7463D7082A54334100B6BA39 = {
+			isa = PBXGroup;
+			children = (
+				7463D70D2A54334100B6BA39 /* Shared (App) */,
+				7463D7162A54334300B6BA39 /* Shared (Extension) */,
+				7463D71E2A54334300B6BA39 /* iOS (App) */,
+				7463D72F2A54334300B6BA39 /* macOS (App) */,
+				7463D73F2A54334300B6BA39 /* iOS (Extension) */,
+				7463D7492A54334300B6BA39 /* macOS (Extension) */,
+				7463D71D2A54334300B6BA39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7463D70D2A54334100B6BA39 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				7463D7142A54334100B6BA39 /* ViewController.swift */,
+				7463D7152A54334300B6BA39 /* Assets.xcassets */,
+				7463D70E2A54334100B6BA39 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		7463D70E2A54334100B6BA39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7463D70F2A54334100B6BA39 /* Main.html */,
+				7463D7112A54334100B6BA39 /* Icon.png */,
+				7463D7122A54334100B6BA39 /* Style.css */,
+				7463D7132A54334100B6BA39 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7463D7162A54334300B6BA39 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				7463D76A2A54334400B6BA39 /* Resources */,
+				7463D7172A54334300B6BA39 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		7463D71D2A54334300B6BA39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7463D71C2A54334300B6BA39 /* Agnex.app */,
+				7463D72E2A54334300B6BA39 /* Agnex.app */,
+				7463D73B2A54334300B6BA39 /* Agnex Extension.appex */,
+				7463D7452A54334300B6BA39 /* Agnex Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7463D71E2A54334300B6BA39 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				7463D71F2A54334300B6BA39 /* AppDelegate.swift */,
+				7463D7212A54334300B6BA39 /* SceneDelegate.swift */,
+				7463D7232A54334300B6BA39 /* LaunchScreen.storyboard */,
+				7463D7262A54334300B6BA39 /* Main.storyboard */,
+				7463D7292A54334300B6BA39 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		7463D72F2A54334300B6BA39 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				7463D7302A54334300B6BA39 /* AppDelegate.swift */,
+				7463D7322A54334300B6BA39 /* Main.storyboard */,
+				7463D7352A54334300B6BA39 /* Info.plist */,
+				7463D7362A54334300B6BA39 /* Redirect Extension.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		7463D73F2A54334300B6BA39 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				7463D7402A54334300B6BA39 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		7463D7492A54334300B6BA39 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				7463D74A2A54334300B6BA39 /* Info.plist */,
+				7463D74B2A54334300B6BA39 /* Redirect Extension.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		7463D76A2A54334400B6BA39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				741BC3EC2A544E0F00929EEA /* background.js */,
+				741BC3EB2A544E0E00929EEA /* manifest.json */,
+				741BC3E82A5439BF00929EEA /* archivekiller.css */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7463D71B2A54334300B6BA39 /* Agnex (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7463D7602A54334300B6BA39 /* Build configuration list for PBXNativeTarget "Agnex (iOS)" */;
+			buildPhases = (
+				7463D7182A54334300B6BA39 /* Sources */,
+				7463D7192A54334300B6BA39 /* Frameworks */,
+				7463D71A2A54334300B6BA39 /* Resources */,
+				7463D75F2A54334300B6BA39 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7463D73E2A54334300B6BA39 /* PBXTargetDependency */,
+			);
+			name = "Agnex (iOS)";
+			productName = "Redirect Extension (iOS)";
+			productReference = 7463D71C2A54334300B6BA39 /* Agnex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7463D72D2A54334300B6BA39 /* Agnex (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7463D7672A54334300B6BA39 /* Build configuration list for PBXNativeTarget "Agnex (macOS)" */;
+			buildPhases = (
+				7463D72A2A54334300B6BA39 /* Sources */,
+				7463D72B2A54334300B6BA39 /* Frameworks */,
+				7463D72C2A54334300B6BA39 /* Resources */,
+				7463D7662A54334300B6BA39 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7463D7482A54334300B6BA39 /* PBXTargetDependency */,
+			);
+			name = "Agnex (macOS)";
+			productName = "Redirect Extension (macOS)";
+			productReference = 7463D72E2A54334300B6BA39 /* Agnex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7463D73A2A54334300B6BA39 /* Agnex Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7463D75C2A54334300B6BA39 /* Build configuration list for PBXNativeTarget "Agnex Extension (iOS)" */;
+			buildPhases = (
+				7463D7372A54334300B6BA39 /* Sources */,
+				7463D7382A54334300B6BA39 /* Frameworks */,
+				7463D7392A54334300B6BA39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agnex Extension (iOS)";
+			productName = "Redirect Extension Extension (iOS)";
+			productReference = 7463D73B2A54334300B6BA39 /* Agnex Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7463D7442A54334300B6BA39 /* Agnex Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7463D7632A54334300B6BA39 /* Build configuration list for PBXNativeTarget "Agnex Extension (macOS)" */;
+			buildPhases = (
+				7463D7412A54334300B6BA39 /* Sources */,
+				7463D7422A54334300B6BA39 /* Frameworks */,
+				7463D7432A54334300B6BA39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agnex Extension (macOS)";
+			productName = "Redirect Extension Extension (macOS)";
+			productReference = 7463D7452A54334300B6BA39 /* Agnex Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7463D7092A54334100B6BA39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7463D71B2A54334300B6BA39 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7463D72D2A54334300B6BA39 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7463D73A2A54334300B6BA39 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7463D7442A54334300B6BA39 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7463D70C2A54334100B6BA39 /* Build configuration list for PBXProject "Agnex" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7463D7082A54334100B6BA39;
+			productRefGroup = 7463D71D2A54334300B6BA39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7463D71B2A54334300B6BA39 /* Agnex (iOS) */,
+				7463D72D2A54334300B6BA39 /* Agnex (macOS) */,
+				7463D73A2A54334300B6BA39 /* Agnex Extension (iOS) */,
+				7463D7442A54334300B6BA39 /* Agnex Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7463D71A2A54334300B6BA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7463D74E2A54334300B6BA39 /* Icon.png in Resources */,
+				7463D7252A54334300B6BA39 /* LaunchScreen.storyboard in Resources */,
+				7463D74C2A54334300B6BA39 /* Main.html in Resources */,
+				7463D7522A54334300B6BA39 /* Script.js in Resources */,
+				7463D7562A54334300B6BA39 /* Assets.xcassets in Resources */,
+				7463D7282A54334300B6BA39 /* Main.storyboard in Resources */,
+				7463D7502A54334300B6BA39 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7463D72C2A54334300B6BA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7463D74F2A54334300B6BA39 /* Icon.png in Resources */,
+				7463D7512A54334300B6BA39 /* Style.css in Resources */,
+				7463D7342A54334300B6BA39 /* Main.storyboard in Resources */,
+				7463D7532A54334300B6BA39 /* Script.js in Resources */,
+				7463D7572A54334300B6BA39 /* Assets.xcassets in Resources */,
+				7463D74D2A54334300B6BA39 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7463D7392A54334300B6BA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741BC3ED2A544E0F00929EEA /* manifest.json in Resources */,
+				741BC3EF2A544E0F00929EEA /* background.js in Resources */,
+				741BC3E92A5439BF00929EEA /* archivekiller.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7463D7432A54334300B6BA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741BC3EE2A544E0F00929EEA /* manifest.json in Resources */,
+				741BC3F02A544E0F00929EEA /* background.js in Resources */,
+				741BC3EA2A5439BF00929EEA /* archivekiller.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7463D7182A54334300B6BA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7463D7542A54334300B6BA39 /* ViewController.swift in Sources */,
+				7463D7202A54334300B6BA39 /* AppDelegate.swift in Sources */,
+				7463D7222A54334300B6BA39 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7463D72A2A54334300B6BA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7463D7552A54334300B6BA39 /* ViewController.swift in Sources */,
+				7463D7312A54334300B6BA39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7463D7372A54334300B6BA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7463D7582A54334300B6BA39 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7463D7412A54334300B6BA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7463D7592A54334300B6BA39 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7463D73E2A54334300B6BA39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7463D73A2A54334300B6BA39 /* Agnex Extension (iOS) */;
+			targetProxy = 7463D73D2A54334300B6BA39 /* PBXContainerItemProxy */;
+		};
+		7463D7482A54334300B6BA39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7463D7442A54334300B6BA39 /* Agnex Extension (macOS) */;
+			targetProxy = 7463D7472A54334300B6BA39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7463D70F2A54334100B6BA39 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7463D7102A54334100B6BA39 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		7463D7232A54334300B6BA39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7463D7242A54334300B6BA39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7463D7262A54334300B6BA39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7463D7272A54334300B6BA39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7463D7322A54334300B6BA39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7463D7332A54334300B6BA39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7463D75A2A54334300B6BA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7463D75B2A54334300B6BA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7463D75D2A54334300B6BA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q65984WZCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Redirect Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravenewapp.agnes;
+				PRODUCT_NAME = "Agnex Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7463D75E2A54334300B6BA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q65984WZCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Redirect Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravenewapp.agnes;
+				PRODUCT_NAME = "Agnex Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7463D7612A54334300B6BA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q65984WZCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Redirect Extension";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravenewapp.agnes;
+				PRODUCT_NAME = Agnex;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7463D7622A54334300B6BA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q65984WZCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Redirect Extension";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravenewapp.agnes;
+				PRODUCT_NAME = Agnex;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7463D7642A54334300B6BA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Redirect Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q65984WZCF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Redirect Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravenewapp.agnes.extension;
+				PRODUCT_NAME = "Agnex Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7463D7652A54334300B6BA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Redirect Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q65984WZCF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Redirect Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravenewapp.agnes.extension;
+				PRODUCT_NAME = "Agnex Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7463D7682A54334300B6BA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Redirect Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q65984WZCF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Redirect Extension";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravenewapp.agnes;
+				PRODUCT_NAME = Agnex;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7463D7692A54334300B6BA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Redirect Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q65984WZCF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Redirect Extension";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravenewapp.agnes;
+				PRODUCT_NAME = Agnex;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7463D70C2A54334100B6BA39 /* Build configuration list for PBXProject "Agnex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7463D75A2A54334300B6BA39 /* Debug */,
+				7463D75B2A54334300B6BA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7463D75C2A54334300B6BA39 /* Build configuration list for PBXNativeTarget "Agnex Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7463D75D2A54334300B6BA39 /* Debug */,
+				7463D75E2A54334300B6BA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7463D7602A54334300B6BA39 /* Build configuration list for PBXNativeTarget "Agnex (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7463D7612A54334300B6BA39 /* Debug */,
+				7463D7622A54334300B6BA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7463D7632A54334300B6BA39 /* Build configuration list for PBXNativeTarget "Agnex Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7463D7642A54334300B6BA39 /* Debug */,
+				7463D7652A54334300B6BA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7463D7672A54334300B6BA39 /* Build configuration list for PBXNativeTarget "Agnex (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7463D7682A54334300B6BA39 /* Debug */,
+				7463D7692A54334300B6BA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7463D7092A54334100B6BA39 /* Project object */;
+}

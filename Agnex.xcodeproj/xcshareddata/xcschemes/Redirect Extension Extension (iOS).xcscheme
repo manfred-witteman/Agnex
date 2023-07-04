@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7463D73A2A54334300B6BA39"
-               BuildableName = "Redirect Extension Extension.appex"
+               BuildableName = "Agnex Extension.appex"
                BlueprintName = "Agnex Extension (iOS)"
                ReferencedContainer = "container:Agnex.xcodeproj">
             </BuildableReference>
@@ -30,7 +30,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7463D71B2A54334300B6BA39"
-               BuildableName = "Redirect Extension.app"
+               BuildableName = "Agnex.app"
                BlueprintName = "Agnex (iOS)"
                ReferencedContainer = "container:Agnex.xcodeproj">
             </BuildableReference>
@@ -43,6 +43,8 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -65,7 +67,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7463D71B2A54334300B6BA39"
-            BuildableName = "Redirect Extension.app"
+            BuildableName = "Agnex.app"
             BlueprintName = "Agnex (iOS)"
             ReferencedContainer = "container:Agnex.xcodeproj">
          </BuildableReference>
@@ -77,13 +79,14 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
+      askForAppToLaunch = "Yes"
       launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7463D71B2A54334300B6BA39"
-            BuildableName = "Redirect Extension.app"
+            BuildableName = "Agnex.app"
             BlueprintName = "Agnex (iOS)"
             ReferencedContainer = "container:Agnex.xcodeproj">
          </BuildableReference>

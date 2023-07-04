@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1430"
-   version = "1.7">
+   version = "1.8">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7463D71B2A54334300B6BA39"
-               BuildableName = "Redirect Extension.app"
+               BuildableName = "Agnex.app"
                BlueprintName = "Agnex (iOS)"
                ReferencedContainer = "container:Agnex.xcodeproj">
             </BuildableReference>
@@ -28,6 +28,8 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -44,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7463D71B2A54334300B6BA39"
-            BuildableName = "Redirect Extension.app"
+            BuildableName = "Agnex.app"
             BlueprintName = "Agnex (iOS)"
             ReferencedContainer = "container:Agnex.xcodeproj">
          </BuildableReference>
@@ -61,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7463D71B2A54334300B6BA39"
-            BuildableName = "Redirect Extension.app"
+            BuildableName = "Agnex.app"
             BlueprintName = "Agnex (iOS)"
             ReferencedContainer = "container:Agnex.xcodeproj">
          </BuildableReference>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63B789582A5465D6002479BA /* images in Resources */ = {isa = PBXBuildFile; fileRef = 63B789572A5465D6002479BA /* images */; };
+		63B789592A5465D6002479BA /* images in Resources */ = {isa = PBXBuildFile; fileRef = 63B789572A5465D6002479BA /* images */; };
 		741BC3E92A5439BF00929EEA /* archivekiller.css in Resources */ = {isa = PBXBuildFile; fileRef = 741BC3E82A5439BF00929EEA /* archivekiller.css */; };
 		741BC3EA2A5439BF00929EEA /* archivekiller.css in Resources */ = {isa = PBXBuildFile; fileRef = 741BC3E82A5439BF00929EEA /* archivekiller.css */; };
 		741BC3ED2A544E0F00929EEA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 741BC3EB2A544E0E00929EEA /* manifest.json */; };
@@ -80,6 +82,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		63B789572A5465D6002479BA /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		741BC3E82A5439BF00929EEA /* archivekiller.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = archivekiller.css; sourceTree = "<group>"; };
 		741BC3EB2A544E0E00929EEA /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		741BC3EC2A544E0F00929EEA /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
@@ -237,6 +240,7 @@
 		7463D76A2A54334400B6BA39 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				63B789572A5465D6002479BA /* images */,
 				741BC3EC2A544E0F00929EEA /* background.js */,
 				741BC3EB2A544E0E00929EEA /* manifest.json */,
 				741BC3E82A5439BF00929EEA /* archivekiller.css */,
@@ -397,6 +401,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B789582A5465D6002479BA /* images in Resources */,
 				741BC3ED2A544E0F00929EEA /* manifest.json in Resources */,
 				741BC3EF2A544E0F00929EEA /* background.js in Resources */,
 				741BC3E92A5439BF00929EEA /* archivekiller.css in Resources */,
@@ -407,6 +412,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B789592A5465D6002479BA /* images in Resources */,
 				741BC3EE2A544E0F00929EEA /* manifest.json in Resources */,
 				741BC3F02A544E0F00929EEA /* background.js in Resources */,
 				741BC3EA2A5439BF00929EEA /* archivekiller.css in Resources */,

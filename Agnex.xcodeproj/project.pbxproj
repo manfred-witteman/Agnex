@@ -39,6 +39,8 @@
 		632D85752A546EA600595F4B /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 632D85282A546EA600595F4B /* background.js */; };
 		633923892A546FE300E11B72 /* archivekiller.css in Resources */ = {isa = PBXBuildFile; fileRef = 633923882A546FE300E11B72 /* archivekiller.css */; };
 		6339238A2A546FE300E11B72 /* archivekiller.css in Resources */ = {isa = PBXBuildFile; fileRef = 633923882A546FE300E11B72 /* archivekiller.css */; };
+		63F429A82A549A3B00F31A03 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 63F429A72A549A3B00F31A03 /* Icon.icns */; };
+		63F429A92A549A3B00F31A03 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 63F429A72A549A3B00F31A03 /* Icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +113,7 @@
 		632D855E2A546EA600595F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		632D855F2A546EA600595F4B /* Agnex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Agnex.entitlements; sourceTree = "<group>"; };
 		633923882A546FE300E11B72 /* archivekiller.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = archivekiller.css; sourceTree = "<group>"; };
+		63F429A72A549A3B00F31A03 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,7 @@
 		632D851A2A546EA600595F4B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				63F429A72A549A3B00F31A03 /* Icon.icns */,
 				632D851B2A546EA600595F4B /* Main.html */,
 				632D851D2A546EA600595F4B /* Icon.png */,
 				632D851E2A546EA600595F4B /* Style.css */,
@@ -380,6 +384,7 @@
 				632D85602A546EA600595F4B /* Main.html in Resources */,
 				632D85662A546EA600595F4B /* Script.js in Resources */,
 				632D856A2A546EA600595F4B /* Assets.xcassets in Resources */,
+				63F429A82A549A3B00F31A03 /* Icon.icns in Resources */,
 				632D853D2A546EA600595F4B /* Main.storyboard in Resources */,
 				632D85642A546EA600595F4B /* Style.css in Resources */,
 			);
@@ -395,6 +400,7 @@
 				632D85672A546EA600595F4B /* Script.js in Resources */,
 				632D856B2A546EA600595F4B /* Assets.xcassets in Resources */,
 				632D85612A546EA600595F4B /* Main.html in Resources */,
+				63F429A92A549A3B00F31A03 /* Icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,6 +701,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Agnex;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -733,6 +740,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Agnex;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -830,13 +838,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Agnex.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q65984WZCF;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = Q65984WZCF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Agnex;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -853,6 +864,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bravenewapp.Agnex;
 				PRODUCT_NAME = Agnex;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -865,13 +877,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Agnex.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q65984WZCF;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = Q65984WZCF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Agnex;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -888,6 +903,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bravenewapp.Agnex;
 				PRODUCT_NAME = Agnex;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
